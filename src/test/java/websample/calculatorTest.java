@@ -20,7 +20,7 @@ public class calculatorTest {
 		new websample.calculator().doPost(req, res);
 		System.out.println(res.getContentAsString());
 				//new Project().doPost(req, res);
-	    Assert.assertTrue(res.getContentAsString().contains("sum is 4"));
+	    Assert.assertTrue(res.getContentAsString().contains("Sum is 4"));
 		//Assert.assertEquals("yes","yes");
 	}
 }
