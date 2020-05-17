@@ -77,12 +77,13 @@
 				    </configuration>
 				<executions>
 					<execution>
+						 <id>coverage-initialize</id>
 						<goals>
 							<goal>prepare-agent</goal>
 						</goals>
 					</execution>
 					<execution>
-						<id>post-unit-test</id>
+						 <id>coverage-report</id>
 						<phase>test</phase>
 						<goals>
 							<goal>report</goal>
