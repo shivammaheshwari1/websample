@@ -84,7 +84,7 @@
 				<configuration>
 					<url>http://localhost:8082/manager/text</url>
 					<username>manager</username>
-					<password>root</password>
+					<password>manager</password>
 					<server>TomcatServer</server>
 					<path>/websample</path>
 				</configuration>
