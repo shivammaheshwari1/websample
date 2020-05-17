@@ -26,5 +26,5 @@ WebDriverWait(driver, 15).until(EC.url_changes(current_url))
 new_url = driver.current_url
 print(new_url)
 element=driver.find_element_by_id("result")
-print(element.text)
+assert element.text == "Sum is 19"
 driver.close()
