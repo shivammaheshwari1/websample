@@ -25,6 +25,6 @@ WebDriverWait(driver, 15).until(EC.url_changes(current_url))
 # print new URL
 new_url = driver.current_url
 print(new_url)
-result=driver.find_element_by_id("result").value
-print(result)
+element=driver.find_element_by_id("result")
+print(element.text)
 driver.close()
