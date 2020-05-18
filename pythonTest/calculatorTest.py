@@ -3,7 +3,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from org.junit import Assert
+
 
 options = Options();
 options.add_argument("--headless");
@@ -28,5 +28,5 @@ new_url = driver.current_url
 print(new_url)
 element=driver.find_element_by_id("result")
 print(element.text)
-Assert.assertequals("Sum is 19",element.text)
+assert element.text == 'Sum is 19'
 driver.close()
