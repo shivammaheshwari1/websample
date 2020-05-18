@@ -28,5 +28,5 @@ new_url = driver.current_url
 print(new_url)
 element=driver.find_element_by_id("result")
 print(element.text)
-assert element.text == 'Sum is 19'
+assert element.text == 'Sum is 9'
 driver.close()
