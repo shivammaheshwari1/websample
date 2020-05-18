@@ -19,7 +19,7 @@ public class calculator extends HttpServlet {
 		String firstint = request.getParameter("first");
 		String secondint = request.getParameter("second");
 		int sum = Integer.parseInt(firstint) + Integer.parseInt(secondint);
-		out.println("<a href='index.jsp'>Go to Input Page</a>");
+		out.println("<a href='index.jsp'>Go to Input Page</a><br><br>");
 		out.println("<labal id='result'>Sum is " + sum + "</label>");
 		
 		
