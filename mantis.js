@@ -1,5 +1,5 @@
 [naman_singh@ptcntttst001 EMS]$ cat mantis.js
-  //var soap = require('/var/lib/jenkins/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/node/lib/node_modules/soap');
+  var soap = require('/var/lib/jenkins/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/node/lib/node_modules/soap');
   var url = 'http://192.168.1.50:80/api/soap/mantisconnect.php?wsdl';
   var user = 'administrator';
   var password = 'root';
