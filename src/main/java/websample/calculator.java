@@ -16,7 +16,7 @@ public class calculator extends HttpServlet {
 		response.setContentType("text/html;charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		
-		String firstint = request.getParameter("first"); //first int
+		String firstint = request.getParameter("first"); 
 		String secondint = request.getParameter("second"); 
 		int sum = Integer.parseInt(firstint) + Integer.parseInt(secondint); 
 		out.println("<a href='index.jsp'>Go to Input Page</a><br><br>");
