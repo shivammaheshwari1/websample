@@ -13,7 +13,7 @@ driver = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver',options=
 #driver = webdriver.Firefox(firefox_options=options);
 driver.get("http://192.168.0.104:8080/websample/index.jsp")
 current_url=driver.current_url
-assert "Addition" in driver.title
+assert "Additionnnnnnn" in driver.title
 elem = driver.find_element_by_name("first")
 elem.send_keys(first)
 elem = driver.find_element_by_name("second")
