@@ -1,6 +1,6 @@
 var soap = require('/var/lib/jenkins/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/node/lib/node_modules/soap');
 
-var url = 'http://192.168.0.102:81/api/soap/mantisconnect.php?wsdl';
+var url = 'http://192.168.0.113:81/api/soap/mantisconnect.php?wsdl';
 
 var user = 'administrator';
 
